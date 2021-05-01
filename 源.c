@@ -3,32 +3,32 @@
 #include <stdio.h>
 #include <math.h>
 
-int aaa = 100;//ÕûĞÎ
-char eee = 'w';//×Ö·ûÊı¾İÀàĞÍ
-short int ddd = 1;//¶ÌÕûĞÎ
-long int xxx = 10000;//³¤ÕûĞÎ
-float qqq = 1.0;//µ¥¾«¶È¸¡µãÊı
-double www = 3.14;//Ë«¾«¶È¸¡µãÊı
-char fff[] = { 'l','x','l' };//×Ö·û´®
+int aaa = 100;//æ•´å½¢
+char eee = 'w';//å­—ç¬¦æ•°æ®ç±»å‹
+short int ddd = 1;//çŸ­æ•´å½¢
+long int xxx = 10000;//é•¿æ•´å½¢
+float qqq = 1.0;//å•ç²¾åº¦æµ®ç‚¹æ•°
+double www = 3.14;//åŒç²¾åº¦æµ®ç‚¹æ•°
+char fff[] = { 'l','x','l' };//å­—ç¬¦ä¸²
 char vvv[5] = { 'l','o','v' ,'e' };
-char ggg[] = "afcvagfw";
+char ggg[] = "hello world";
 short int day = 1;
 
 int main()
 {
 	double aaaa = 7.0;
-	printf("Ñ§CÓïÑÔµÄµÚ%dÌì\n", day);
+	printf("å­¦Cè¯­è¨€çš„ç¬¬%då¤©\n", day);
 	printf("aaa=%d\n",aaa);
 	scanf_s("%d",&aaa);
 	printf("aaa=%d\n", aaa);
 	printf("%d,%d,%d\n",aaa,ddd,xxx);
 	aaaa = aaa + xxx - pow(www, 2, 2, 2);
-	printf("ÌØ±ğ¼ÆËã=%f\n",aaaa);
+	printf("ç‰¹åˆ«è®¡ç®—=%f\n",aaaa);
 	printf("%s,%s,%s\n",fff,vvv,ggg);
 	printf("%d\n",xxx);
 	printf("%f\n",qqq);
 	printf("%f\n",www);
 	printf("%c\n",eee);
-	printf("ÄãºÃ\n");
+	printf("ä½ å¥½\n");
 	return 0;
 }
