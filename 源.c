@@ -4,7 +4,9 @@
 #include <math.h>
 
 int aaa = 100;//整形
+int SSS,F,V,P;
 char eee = 'w';//字符数据类型
+char Y;
 short int ddd = 1;//短整形
 long int xxx = 10000;//长整形
 float qqq = 1.0;//单精度浮点数
@@ -31,12 +33,13 @@ int main()
 	printf("%c\n",eee);
 	printf("你好\n");
 	printf("您是否要三连（T/F）\n");
-	scanf("%d",&T/F);
-	if(T/F == T)
+	scanf("%c",&Y);
+	
+	if(Y == 'T')
 	{
 		printf("ohhhhhhhhhhhh感谢!!\n");
 	}
-	else if(T/F == F)
+	else if(Y == 'F')
 	{
 		printf("NNNNOOOO!!\n");
 	}
@@ -46,22 +49,22 @@ int main()
 	}
 	printf("请输入测试密码:");
 	scanf("%d",&P);
+	
 	switch(P)
 	{
 		case 114514:
 			printf("密码正确\n");
-			printf("请输入两个数:");
-			scanf("%d %d",&S,&F);
-			for(? = 0,S > F,S++)
+			printf("请输入一个数:");
+			scanf("%d",&F);
+			for(V = 0;SSS <= F;SSS++)
 			{
-			? = ? + S;
+			    V = V + SSS;
 			}
-			printf("结果是%d",?);
+			printf("结果是%d",V);
 			break;
-		default
-			:printf("密码错误，程序结束\n");
+		default:
+			printf("密码错误，程序结束\n");
 			break;
 	}
-	
 	return 0;
 }
