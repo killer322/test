@@ -30,5 +30,38 @@ int main()
 	printf("%f\n",www);
 	printf("%c\n",eee);
 	printf("你好\n");
+	printf("您是否要三连（T/F）\n");
+	scanf("%d",&T/F)
+	if(T/F == T)
+	{
+		printf("ohhhhhhhhhhhh感谢!!\n");
+	}
+	else if(T/F == F)
+	{
+		printf("NNNNOOOO!!\n");
+	}
+	else
+	{
+		printf("宁搁这输什么呢\n");
+	}
+	printf("请输入测试密码:");
+	scanf("%d",&P);
+	switch(P)
+	{
+		case 114514:
+			printf("密码正确\n");
+			printf("请输入两个数:");
+			scanf("%d %d",&S,&F);
+			for(? = 0,S > F,S++)
+			{
+			? = ? + S;
+			}
+			printf("结果是%d",?);
+			break;
+		default
+			:printf("密码错误，程序结束\n");
+			break;
+	}
+	
 	return 0;
 }
