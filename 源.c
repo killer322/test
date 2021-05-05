@@ -31,7 +31,7 @@ int main()
 	printf("%c\n",eee);
 	printf("你好\n");
 	printf("您是否要三连（T/F）\n");
-	scanf("%d",&T/F)
+	scanf("%d",&T/F);
 	if(T/F == T)
 	{
 		printf("ohhhhhhhhhhhh感谢!!\n");
